@@ -105,6 +105,3 @@ for problem_type in problem_count:
     # val += (problem_type[1]/total_tags)*100
 
 # print(val)
-
-
-

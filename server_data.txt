@@ -1,15 +1,29 @@
-1494/F-constructive algorithms/graphs/implementation/
+1496/B-implementation/math/
+1496/A-brute force/constructive algorithms/greedy/strings/
+1495/F-constructive algorithms/data structures/graphs/trees/
+1495/E-brute force/data structures/greedy/implementation/
+1495/D-combinatorics/dfs and similar/graphs/math/shortest paths/trees/
+1495/C-constructive algorithms/graphs/
+1495/B-games/greedy/
+1495/A-geometry/greedy/math/sortings/
+1494/F-brute force/constructive algorithms/dfs and similar/graphs/implementation/
 1494/E-constructive algorithms/data structures/graphs/hashing/
 1494/D-constructive algorithms/data structures/dfs and similar/divide and conquer/dsu/greedy/sortings/trees/
 1494/C-binary search/dp/greedy/implementation/two pointers/
 1494/B-bitmasks/brute force/greedy/implementation/
 1494/A-bitmasks/brute force/implementation/
+1493/F-bitmasks/interactive/number theory/
+1493/E-bitmasks/constructive algorithms/greedy/math/strings/two pointers/
+1493/D-data structures/hashing/implementation/math/number theory/sortings/two pointers/
+1493/C-binary search/brute force/constructive algorithms/greedy/strings/
+1493/B-brute force/implementation/
+1493/A-constructive algorithms/greedy/
 1492/E-brute force/constructive algorithms/dfs and similar/greedy/implementation/
 1492/D-bitmasks/constructive algorithms/greedy/math/
 1492/C-binary search/data structures/dp/greedy/two pointers/
 1492/B-data structures/greedy/math/
 1492/A-math/
-1491/I-brute force/
+1491/I-brute force/data structures/
 1491/H-data structures/trees/
 1491/G-constructive algorithms/graphs/math/
 1491/F-binary search/constructive algorithms/interactive/
@@ -25,6 +39,16 @@
 1490/C-binary search/brute force/math/
 1490/B-brute force/constructive algorithms/math/
 1490/A-greedy/math/
+1488/J-*special/data structures/fft/math/
+1488/I-*special/flows/
+1488/H-*special/combinatorics/data structures/
+1488/G-*special/data structures/greedy/number theory/
+1488/F-*special/binary search/data structures/
+1488/E-*special/data structures/dp/
+1488/D-*special/binary search/greedy/
+1488/C-*special/binary search/brute force/math/
+1488/B-*special/greedy/
+1488/A-*special/math/
 1487/G-combinatorics/dp/fft/math/
 1487/F-dp/greedy/shortest paths/
 1487/E-brute force/data structures/graphs/greedy/implementation/sortings/two pointers/
