@@ -23,6 +23,7 @@ def load_server_problems():
             if flag == 0:
                 tags = tags + c
         problems[problem_tag] = tags[1:]
+    f.close()
 
 
 def update_tags(page_url):
@@ -89,7 +90,13 @@ def work_on_div_tags():
 # main
 load_server_problems()
 value = work_on_div_tags()
-print("Total Calculated Recent Problems ->", value)
+
+f1 = open("result.txt", "w")
+f1.close()
+f1 = open("result.txt", "a")
+f1.write("Total Calculated Recent Problems -> ")
+f1.write(str(value))
+f1.write("\n")
 
 # to print count
 # val=0
@@ -100,8 +107,11 @@ for problem_type in problem_count:
 problem_count = sorted(problem_count.items(), key=operator.itemgetter(1), reverse=True)
 for problem_type in problem_count:
     # print(problem_type, '->', "{0:.2f}".format((problem_count[problem_type]/value)*100))
-    print(problem_type[0], "->", "{0:.2f}".format((problem_type[1]/total_tags)*100), "%")
+    f1.write(problem_type[0])
+    f1.write(" -> ")
+    f1.write("{0:.2f}".format((problem_type[1]/total_tags)*100))
+    f1.write("%\n")
     # "{0:.2f}".format((problem_type[1]/value)*100),"% and ",
     # val += (problem_type[1]/total_tags)*100
-
+f1.close()
 # print(val)
